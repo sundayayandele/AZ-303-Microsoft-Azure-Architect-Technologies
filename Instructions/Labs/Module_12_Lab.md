@@ -435,7 +435,7 @@ The main tasks for this exercise are as follows:
 
 1. On the **Failover** blade, note the available options geared towards minimizing potential data loss. 
 
-1. Close the **Failover** blade.
+1. Close the **Failover** blade. Failover operation may take 10 to 15 minutes to complete. **DO NOT** delete the resource group and other resources before completion or else Failover operation will abort. You can check the status of Failover on **Site Recovery Jobs** blade.
 
 
 #### Task 5: Remove Azure resources deployed in the lab
