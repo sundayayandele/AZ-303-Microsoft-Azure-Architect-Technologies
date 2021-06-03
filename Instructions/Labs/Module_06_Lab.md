@@ -95,7 +95,7 @@ The main tasks for this exercise are as follows:
 
 1. From the Cloud Shell pane, upload the Azure Resource Manager parameter file **\\\\AZ303\\AllFilesLabs\\06\\azuredeploy30306rga.parameters.json**.
 
-1. From the Cloud Shell pane, run the following to deploy a Azure VM running Windows Server 2019 that you will be using in this lab:
+1. From the Cloud Shell pane, run the following to deploy a Azure VM running Windows Server 2019 that you will be using in this lab (replace the `<vm_Size>` placeholder with the size of the Azure VM you intend to use for this deployment, such as `Standard_D2s_v3`):
 
    ```powershell
    New-AzResourceGroupDeployment `
@@ -103,6 +103,7 @@ The main tasks for this exercise are as follows:
      -ResourceGroupName 'az30306a-labRG' `
      -TemplateFile $HOME/azuredeploy30306rga.json `
      -TemplateParameterFile $HOME/azuredeploy30306rga.parameters.json `
+     -vmSize=<vm_Size> `
      -AsJob
    ```
 
