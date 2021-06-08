@@ -103,7 +103,7 @@ The main tasks for this exercise are as follows:
      -ResourceGroupName 'az30306a-labRG' `
      -TemplateFile $HOME/azuredeploy30306rga.json `
      -TemplateParameterFile $HOME/azuredeploy30306rga.parameters.json `
-     -vmSize=<vm_Size> `
+     -vmSize <vm_Size> `
      -AsJob
    ```
 
