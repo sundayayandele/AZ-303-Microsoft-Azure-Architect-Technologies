@@ -353,8 +353,8 @@ The main tasks for this exercise are as follows:
     > **Note**: This listing is also practically identical to the one you viewed in the previous exercise, with network-level protection implemented by using a network security group associated with the subnet to which both Azure VMs are connected. Keep in mind, however, that the network security group is, in this case, required for the HTTP and RDP traffic to reach the backend pool Azure VMs, due to the usage of the Azure Load Balancer Standard SKU (NSGs are optional when using the Basic SKU).  
     
     > **Note**: Alternatively, you can view **Effective security rules** from:
-    - the **az30305a-nic0** network interface blade.
-    - the **az30305a-web-nsg** network security group blade 
+    - the **az30305b-nic0** network interface blade.
+    - the **az30305b-web-nsg** network security group blade 
 
 1. On the **Network Watcher** blade, select **Connection troubleshoot**.
 
